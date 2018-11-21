@@ -2,7 +2,10 @@
 A function that turns your short json objects( each key has one value) into an array with keys and values.
 # PLEASE REMEMBER :
 You can't have keys that have multi values, I mean:<br/>
-var myobj = { fullName: ["jack", "Ericson"]}   // Will not work
+var myobj = { fullName: ["jack", "Ericson"]}   // Will not work<br/>
+# Installation :<br/>
+You can use the function inside the index.js file or: <br/>
+<b>npm install object-to-array-converter</b> and the code below.
 # Example Code :
 
 var obarr = require("object-to-array-converter");
