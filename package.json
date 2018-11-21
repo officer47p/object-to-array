@@ -1,0 +1,23 @@
+{
+  "name": "object-to-array",
+  "version": "0.0.1",
+  "description": "A function that extracts your simple object into an array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/officer47p/object-to-array.git"
+  },
+  "keywords": [
+    "object-to-array",
+    "iterable-array"
+  ],
+  "author": "Parsa Hosseini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/officer47p/object-to-array/issues"
+  },
+  "homepage": "https://github.com/officer47p/object-to-array#readme"
+}
