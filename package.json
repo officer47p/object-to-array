@@ -15,7 +15,7 @@
     "iterable-array"
   ],
   "author": "Parsa Hosseini",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/officer47p/object-to-array/issues"
   },
