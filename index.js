@@ -22,4 +22,4 @@ function objecttoarray(obj){
     }
 }
 
-module.exports = jsontoarray; // exports the function
+module.exports = objecttoarray; // exports the function
