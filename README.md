@@ -9,7 +9,7 @@ var myobj = { fullName: {name: "jack",lastname: "Ericson"}}   // Will not work t
 # Installation :
 You can use the function inside the index.js file for using in browsers or download the package by npm :
 ```
-npm install object-to-array-converter
+npm install object-to-array-converter --save
 ```
 # Example Code :
 ```js
