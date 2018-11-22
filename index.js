@@ -2,23 +2,12 @@
 // Please fork me in Github and consider that this is my first app.
 
 function objecttoarray(obj){
-    let rkeys = []; // returned keys list
-    let rvalues = []; // returned values list
-    let pobj = JSON.stringify(obj); // turns the given object into a string
-    if(pobj.indexOf('""') != -1 || pobj.indexOf("''") != -1){ // if there was an empty key or value, it will return false
-        return false;
-    } else{ // if every thing was OK:
-        pobj = pobj.split(","); // splits the key-values
-        pobj.forEach(item => { // on every item in key-values list:
-            let startqoute = item.indexOf('"'); // locates the first double-quotation's index
-            startqoute += 1; // in slicing we need to start from the index that "key" starts
-            let endqoute = item.indexOf('"', startqoute); // locates the end double-quotation's index
-            rkeys.push(item.slice(startqoute, endqoute)); // slices the "key" from the string
-        });
-        rkeys.forEach(item => { // walking over the keys and finding values
-            rvalues.push(obj[item]); // pushing values into values list
-        })
-        return [rkeys, rvalues]; // returns the results
+    if(typeof(obj) !== "object"){ // checks if the given thing is an object or not
+        throw new Error("The given property is not an object! it's " + typeof(obj)); // it's not an object
+    } else{
+        let rkeys = Object.keys(obj); // keys list
+        let rvalues = Object.values(obj); // values list
+        return [rkeys, rvalues]; // returns the results 
     }
 }
 
