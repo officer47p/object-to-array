@@ -24,6 +24,6 @@ var myobj = {
 
 var keyvalues = obarr(myobj);
 
-console.log(keyvalues); <br/>
+console.log(keyvalues);
 // [ ['name',  'lastname',  'Phone',  'happy'],  ['Jack',  'Ericson',  12345678,  true] ]
 ```
