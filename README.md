@@ -14,7 +14,7 @@ var myobj = {
   lastName: "Ericson",
   phone: 12345678,
   happy: true,
-  favFoods: ["Pizza", "Burger", "Omlet]
+  favFoods: ["Pizza", "Burger", "Omlet"]
 }
 
 var keyvalues = ota(myobj);
