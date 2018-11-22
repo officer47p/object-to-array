@@ -1,12 +1,18 @@
-# OBJECT TO ARRAY (version: 0.0.1)
-A function that turns your short json objects( each key has one value) into an array with keys and values.
+## object-to-array-converter
+A function that turns your simple objects(each key has one value) into an array with keys and values.
 # PLEASE REMEMBER :
-You can't have keys that have multi values, I mean:<br/>
+You can't have keys that have objects or arrays as values, I mean:<br/>
+```js
 var myobj = { fullName: ["jack", "Ericson"]}   // Will not work
+var myobj = { fullName: {name: "jack",lastname: "Ericson"}}   // Will not work too
+```
 # Installation :
-You can use the function inside the index.js file for using in browsers or download the package by npm
+You can use the function inside the index.js file for using in browsers or download the package by npm :
+```
+npm install object-to-array-converter
+```
 # Example Code :
-
+```js
 var obarr = require("object-to-array-converter");
 
 var myobj = {
@@ -20,3 +26,4 @@ var keyvalues = obarr(myobj);
 
 console.log(keyvalues); <br/>
 // [ ['name',  'lastname',  'Phone',  'happy'],  ['Jack',  'Ericson',  12345678,  true] ]
+```
