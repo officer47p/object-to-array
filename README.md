@@ -3,6 +3,8 @@ A function that turns your short json objects( each key has one value) into an a
 # PLEASE REMEMBER :
 You can't have keys that have multi values, I mean:<br/>
 var myobj = { fullName: ["jack", "Ericson"]}   // Will not work
+# Installation :
+You can use the function inside the index.js file for using in browsers or download the package by npm
 # Example Code :
 
 var obarr = require("object-to-array-converter");
