@@ -1,7 +1,7 @@
 {
   "name": "object-to-array-converter",
   "version": "1.0.0",
-  "description": "A function that extracts your simple object into an array.",
+  "description": "A function that extracts your object into an array.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
